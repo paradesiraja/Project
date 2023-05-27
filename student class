@@ -1,0 +1,26 @@
+package lib.copy;
+
+	class Student {
+	        private String id;
+	        private String name;
+	        private String totalMarks;
+
+	        public Student(String id, String name, String totalMarks) {
+	            this.id = id;
+	            this.name = name;
+	            this.totalMarks = totalMarks;
+	        }
+
+	        public String getId() {
+	            return id;
+	        }
+
+	        public String getName() {
+	            return name;
+	        }
+
+	        public String getTotalMarks() {
+	            return totalMarks;
+	        }
+	}
+
